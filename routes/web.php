@@ -2,7 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/Rayane', function () {
-    $prenom="rayane";
-    return "<h2>$prenom</h2>";
+Route::get('/welcome', function () {
+    $chiffre = 5;
+
+    return view("welcome", compact("chiffre"));
 });
