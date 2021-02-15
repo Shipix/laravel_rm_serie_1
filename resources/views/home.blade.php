@@ -7,12 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <section>
-        @if ($chiffre %4 == 0)
-             <p>{{$chiffre * 4}}</p>
-        @else
-            <p>NULL</p>
-        @endif
-    </section>
+    <p>{{$mb1+$mb2}}</p>
+    <p>{{$mb1-$mb2}}</p>
 </body>
 </html>
